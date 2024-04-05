@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial;
+}
+.nav{
+    height: 60px;
+    color: white;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    background-color: #0f1111;
+}
+
+.nav-logo{
+    height: 50px;
+    width: 130px;
+    padding: 5px;
+}
+.logo{
+    background-image: url(assets/logol.png);
+    height: 40px;
+    background-size: cover;
+    color: white;
+    width: 100%;
+}
+.border{
+border: 1px solid transparent;
+
+
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+.address1{
+ color: white;  
+ margin-left: 15px; 
+ font-size: 1.0rem;
+}
+.address2{
+    font-size: 0.85rem;
+    margin-left: 5px;
+  
+}
+.addicon{
+    display: flex;
+    align-items: center;
+
+}
+.nav-serch{
+    border-radius: 4px;
+    display: flex;
+    margin-left: 20px;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 300px;
+    height: 40px;
+    background-color: #F3A847;
+}
+.nav select{
+    background-color: #f3f3f3;
+    width: 65px;
+border-top-left-radius: 4px;
+border-bottom-left-radius: 4px;
+    padding: 5px ;
+    border: none;
+}
+.nav input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.serch-icon{
+    width: 45px ;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+span{
+    font-size: 0.7rem;
+}
+.nav-sec{
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+.nav-cart{
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+
+}
+.pannel{
+    background-color: #232F3E;
+    height: 40px;
+    color: white;
+    align-items: center;
+    display: flex;
+  
+}
+.pannel-op p{
+    display: inline;
+    margin-left: 1rem;
+}
+.pannel-op{
+    width: 70%;
+    font-size: 0.85rem;
+}
+.fa-bars{
+    margin-left: 20px;
+}
+.hero-section{
+    background-image: url(assets/PC_hero_1_2x_1._CB582889946_.jpg);
+    height: 300px;
+    background-size: cover;
+    justify-content: center;
+    align-items: flex-end;
+    display: flex;
+
+}
+.hero-msg{
+    background-color: white;
+    color: black;
+    height: 40px;
+    border-radius: 2px;
+margin-bottom: 25px;
+    font-size: 0.85rem;
+width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero-msg a{
+    color: #F3A847;
+}
+
+.box{
+    height: 350px;
+    width: 30%;
+margin-top: 15px;
+border-radius: 3px;
+background-color: white;
+    /* border: 2px solid rgb(0, 0, 0); */
+}
+.shopsection{
+    display: flex;
+    flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: #e2e7e6;
+}
+.box-image{
+    height: 260px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.box-cont h2{
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.box-cont p{
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-weight: 500;
+  color: orange;
+}
+.foot-pannel1{
+    background-color: #374758;
+    color: white;
+    height: 49px;
+    font-size: 0.85rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    margin-top: 20px;
+}
+.foot-pannel2{
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    height: 300px;
+}
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    color: whitesmoke;
+    margin-top: 15px;
+}
+ul{
+    margin-top: 30px;
+}
+.foot-pammel3{
+    background-color: #222f3d;
+    color: white;
+    height: 68px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-top: 0.5px solid white;
+}
+.logo{
+    background-image: url(assets/logol.png);
+    background-size: cover;
+    height: 50px;
+    width: 150px;
+}
+.foot-pammel3 p{
+    font-size: 10px;
+    margin-top: 30px;
+}
+
+.foot-pannel4{
+    background-color: #0f1111;
+    color: white;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    height: 78px;
+   
+}
+.pages{
+    font-size: 0.75rem;
+    text-align: center;
+    padding-top: 25px;
+}
+.copy{
+    font-size: 0.70rem;
+    text-align: center;
+    padding-top: 10px;
+}
+.pages a{
+    text-decoration: none;
+    color: white;
+}
